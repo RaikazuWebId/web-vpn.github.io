@@ -2,7 +2,7 @@
 import { daisyui } from "#tailwind-config";
 
 const routerPaths = ref([
-  { name: "Home", path: "/" },
+  { name: "Beranda", path: "/" },
   { name: "About", path: "/" },
   { name: "Uptime", path: "/uptime" },
   { name: "Tools", children: [{ name: "Converter", path: "/tools/converter" }] },
